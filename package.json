@@ -1,0 +1,36 @@
+{
+  "name": "ems_backend_api",
+  "version": "1.0.0",
+  "description": "This is EMS Backend API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ivandi.gah@github.com/luxpmsoft/ems_backend.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "ivandjoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxpmsoft/ems_backend/issues"
+  },
+  "homepage": "https://github.com/luxpmsoft/ems_backend#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "connect-redis": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
